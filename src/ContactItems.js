@@ -9,8 +9,8 @@ class ContactItems extends Component
 
 render() 
 {
-    var todoEntries = this.props.entries;
-    var listItems = todoEntries.map(this.createTasks);
+    var contactEntries = this.props.entries;
+    var listItems = contactEntries.map(this.createTasks);
  
     return (
       <ul className="theList">
@@ -20,4 +20,4 @@ render()
 }
 };
  
-export default TodoItems;
+export default ContactItems;
