@@ -1,7 +1,6 @@
 body {
-    padding: 50px;
+    padding-top: 30px; 
     background-color: rgb(255, 255, 191);
-    border-color: rgb(5, 5, 5);
     font-family: sans-serif;
   }
   #container {
@@ -10,6 +9,9 @@ body {
     display: flex;
     justify-content: center;
     height: 500px;
-    width: 300px;
+    width: 380px;
     background-color: #1e7e61;
+    border-color: black;
+    border-radius: 1%;
+    border-width: thick;
   }
