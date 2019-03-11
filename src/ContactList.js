@@ -8,7 +8,12 @@ class ContactList extends Component
     {
         super(props);
         this.state = {
-            items: []
+            // items: []
+            items:
+            [
+                // {name: "hello", contact: "9893287480"},
+                // {name: "heyaa", contact: "9424632588"}
+            ]
         };
      
         this.addItem = this.addItem.bind(this);
@@ -21,6 +26,7 @@ class ContactList extends Component
         {
             var newItem ={
                 text: this._inputElement.value,
+                num: this._inputElement2.value,
                 key:Date.now()
             };
 
@@ -31,6 +37,7 @@ class ContactList extends Component
             });
     
             this._inputElement.value="";
+            this._inputElement2.value="";
         }
 
         console.log(this.state.items);
@@ -55,8 +62,10 @@ class ContactList extends Component
             <div className="ContactListMain">
                 <div className="header">
                     <form id="formfield" onSubmit={this.addItem}>
-                        <input id="inputfield" ref={(a) => this._inputElement = a} placeholder="Enter Contact(Name-0xxxxxxxxx)">
+                        <input id="inputfield" ref={(a) => this._inputElement = a} placeholder="Enter Contact Name">
                         </input>
+                        <br></br>
+                        <input id="inputfieldnum" ref={(b) => this._inputElement2 = b} placeholder="Contact Number"></input>
                         <br></br>
                         <button type="submit">Add Contact</button>
                     </form>
