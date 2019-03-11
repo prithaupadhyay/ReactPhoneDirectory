@@ -12,6 +12,7 @@ class ContactList extends Component
         };
      
         this.addItem = this.addItem.bind(this);
+        this.deleteItem = this.deleteItem.bind(this);
     }
 
     addItem(e)
@@ -37,6 +38,17 @@ class ContactList extends Component
          
     }
 
+    deleteItem(key) 
+    {
+        var filteredItems = this.state.items.filter(function (item) {
+          return (item.key !== key);
+        });
+       
+        this.setState({
+          items: filteredItems
+        });
+    }
+
     render() 
     {
         return (
@@ -49,7 +61,7 @@ class ContactList extends Component
                         <button type="submit">Add Contact</button>
                     </form>
                 </div>
-                <ContactItems entries={this.state.items}/>
+                <ContactItems entries={this.state.items} delete={this.deleteItem}/>
             </div>
         );
     }
