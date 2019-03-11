@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+
+1. The Contact number only accepts numerical values of 10 digits.
+2. The Contact Name must start with an alphabet but can contain a numeric value too.
 
 ## Available Scripts
 
