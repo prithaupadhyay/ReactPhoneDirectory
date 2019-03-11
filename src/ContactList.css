@@ -6,34 +6,46 @@
 #formfield{
     margin-top:10px;
 } */
-
+/* 
 #formfield{
     margin-top:10px;
     text-align: center;
 }
 #inputfield{
     width: 250px;
+    border:black;
 }
+#inputfieldnum{
+    margin-top:5px;
+    border:black;
+} */
 
+#inputfield{
+  width: 250px;
+}
 .ContactListMain .header input {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #FFF;
     width: 165px;
   }
-  .ContactListMain .header button {
+  /* .ContactListMain .header button {
     padding: 10px;
     font-size: 16px;
     margin: 10px;
     margin-right: 0px;
-    background-color: rgb(4, 6, 8);
+    background-color: #0a5c11;
     color: #FFF;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid #0a5c11; 
   }
   .ContactListMain .header button:hover {
-    background-color: #000000;
-    border: 2px solid #4a5480;
+    background-color: #0a5c11;
+    border: 3px solid #000000;
     cursor: pointer;
+  } */
+/* 
+  .ContactListMain .header button{
+    margin: 10px;
   }
   .ContactListMain .theList {
     list-style: none;
@@ -41,8 +53,8 @@
     width: 250px;
   } 
   .ContactListMain .theList li {
-    color: #333;
-    background-color: rgba(255,255,255,.5);
+    color: rgb(3, 3, 3);
+    background-color:#6d7175;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -52,4 +64,4 @@
    
   ul.theList {
     padding: 0;
-  }
+  } */

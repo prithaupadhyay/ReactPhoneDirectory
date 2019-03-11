@@ -1,6 +1,6 @@
 body {
-    padding-top: 30px; 
-    background-color: rgb(255, 255, 191);
+    padding-top: 2px; 
+    background-color: rgb(255, 255, 255);
     font-family: sans-serif;
   }
   #container {
@@ -8,10 +8,10 @@ body {
     margin-left: 30%;
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 550px;
     width: 350px;
-    background-color: #1e7e61;
-    border: solid rgb(58, 57, 57);
+    background-color: rgb(163, 161, 161);
+    border: solid rgb(51, 50, 50);
     border-width: 10px 10px;
     border-radius: 1%;
   }

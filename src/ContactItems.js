@@ -16,9 +16,16 @@ class ContactItems extends Component
     }
 
     createTask(item){
-        return <li key={item.key}>{item.text}
-        <div class="deletebody" onClick={() => this.delete(item.key)} > 
-        <button class="deleteoption">Delete</button></div>
+        return <li key={item.key}>
+        <div className=""><b>{item.text}</b>
+        <div className="uk-align-right" onClick={() => this.delete(item.key)} > 
+        <button className="deleteoption"><span uk-icon="icon:trash"></span>
+        </button>
+        </div>
+        </div>
+        {item.num}
+        <br></br>
+        <br></br>
         </li>
     }
 
@@ -29,8 +36,8 @@ render()
     var listItems = contactEntries.map(this.createTask);
  
     return (
-      <ul className="theList">
-          {listItems}
+      <ul className="uk-card uk-card-secondary uk-margin-small">
+         {listItems}
       </ul>
     );
 }
