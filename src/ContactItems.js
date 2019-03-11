@@ -16,9 +16,9 @@ class ContactItems extends Component
     }
 
     createTask(item){
-        return <li key={item.key}>{item.text}
-        <div class="deletebody" onClick={() => this.delete(item.key)} > 
-        <button class="deleteoption">Delete</button></div>
+        return <li key={item.key}><b>{item.text}</b><br></br>{item.num}
+        <div className="deletebody" onClick={() => this.delete(item.key)} > 
+        <button className="deleteoption">Delete</button></div>
         </li>
     }
 
