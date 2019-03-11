@@ -1,9 +1,13 @@
 import React, {Component} from "react";
+import "./ContactItems.css";
 
 class ContactItems extends Component
 {
     createTask(item){
-        return <li key={item.key}>{item.text}</li>
+        return <li key={item.key}>{item.text}
+        <div class="deletebody"> 
+        <button class="deleteoption">Delete</button></div>
+        </li>
     }
 
 
