@@ -5,13 +5,13 @@ body {
   }
   #container {
     align-content: center;
-    margin-left: 25em;
+    margin-left: 30%;
     display: flex;
     justify-content: center;
     height: 500px;
     width: 380px;
     background-color: #1e7e61;
-    border-color: black;
+    border: solid rgb(58, 57, 57);
+    border-width: 10px 10px;
     border-radius: 1%;
-    border-width: thick;
   }

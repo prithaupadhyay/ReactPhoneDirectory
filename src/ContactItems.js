@@ -10,7 +10,7 @@ class ContactItems extends Component
 render() 
 {
     var contactEntries = this.props.entries;
-    var listItems = contactEntries.map(this.createTasks);
+    var listItems = contactEntries.map(this.createTask);
  
     return (
       <ul className="theList">

@@ -45,6 +45,7 @@ class ContactList extends Component
                     <form id="formfield" onSubmit={this.addItem}>
                         <input id="inputfield" ref={(a) => this._inputElement = a} placeholder="Enter Contact(Name-0xxxxxxxxx)">
                         </input>
+                        <br></br>
                         <button type="submit">Add Contact</button>
                     </form>
                 </div>
