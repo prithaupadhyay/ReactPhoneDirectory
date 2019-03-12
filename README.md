@@ -6,9 +6,6 @@ $ git clone https://github.com/{{your_username}}/ReactPhoneDirectory.git
 $ cd ReactPhoneDirectory
 $ git remote add upstream https://github.com/prithaupadhyay/ReactPhoneDirectory.git
 ```
-## Screenshot(s)
-
-![Main Page](images/ss.png)
 
 ## Features
 
