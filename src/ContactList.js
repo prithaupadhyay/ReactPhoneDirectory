@@ -23,6 +23,7 @@ class ContactList extends Component
                 text: this._inputElement.value,
                 num: this._inputElement2.value,
                 key: Date.now(),
+
             };
 
             this.setState((prevState) => {
