@@ -7,4 +7,9 @@
 
 .deletebody{
     margin-bottom:3px;
+    cursor:pointer;
+}
+
+ul{
+    list-style-type: none;
 }
