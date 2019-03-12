@@ -1,8 +1,15 @@
 .deleteoption{
     background-color: rgb(155, 10, 10);
-    text-decoration-color: aliceblue;
+    border: red;
+    margin-bottom:3px;
+    margin-right: 0px;
 }
 
 .deletebody{
-    text-align: right;
+    margin-bottom:3px;
+    cursor:pointer;
+}
+
+ul{
+    list-style-type: none;
 }
